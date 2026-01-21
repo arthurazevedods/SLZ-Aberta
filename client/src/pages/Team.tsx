@@ -36,12 +36,12 @@ const Team = () => {
     },
     {
       name: "Sofia...",
-      role: "Orientador",
-      description: "Bacharel em Ciência da Computação e Especialista em Robótica",
+      role: "Aluna e desenvolvedora",
+      description: "Aluna do Técnico em Desenvolvimento de Sistemas",
       social: {
-        github: "https://github.com/arthurazevedods",
+        github: "https://github.com/sosofis0",
         linkedin: "https://linkedin.com",
-        email: "mailto:arthurdstech@gmail.com"
+        email: "mailto:sofiaemilly1813@gmail.com"
       }
     }
   ];
