@@ -25,13 +25,23 @@ const Team = () => {
 
   const teamMembers = [
     {
-      name: "Equipe OpenCity SLZ",
-      role: "Desenvolvedores e Pesquisadores",
-      description: "Time dedicado à transparência pública e dados abertos",
+      name: "Arthur Azevedo da Silva",
+      role: "Orientador",
+      description: "Bacharel em Ciência da Computação e Especialista em Robótica",
       social: {
-        github: "https://github.com",
+        github: "https://github.com/arthurazevedods",
         linkedin: "https://linkedin.com",
-        email: "mailto:contato@opencityslz.com"
+        email: "mailto:arthurdstech@gmail.com"
+      }
+    },
+    {
+      name: "Sofia...",
+      role: "Orientador",
+      description: "Bacharel em Ciência da Computação e Especialista em Robótica",
+      social: {
+        github: "https://github.com/arthurazevedods",
+        linkedin: "https://linkedin.com",
+        email: "mailto:arthurdstech@gmail.com"
       }
     }
   ];
@@ -95,60 +105,6 @@ const Team = () => {
 
         {/* Contact Form */}
         <div className="max-w-2xl mx-auto">
-          <Card className="border-2">
-            <CardHeader>
-              <CardTitle className="text-2xl text-center">Entre em Contato</CardTitle>
-              <p className="text-center text-muted-foreground">
-                Dúvidas, sugestões ou parcerias? Envie sua mensagem!
-              </p>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="space-y-2">
-                  <label htmlFor="name" className="text-sm font-medium">
-                    Nome
-                  </label>
-                  <Input
-                    id="name"
-                    placeholder="Seu nome completo"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    required
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium">
-                    E-mail
-                  </label>
-                  <Input
-                    id="email"
-                    type="email"
-                    placeholder="seu@email.com"
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    required
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-medium">
-                    Mensagem
-                  </label>
-                  <Textarea
-                    id="message"
-                    placeholder="Escreva sua mensagem aqui..."
-                    rows={6}
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    required
-                  />
-                </div>
-                <Button type="submit" className="w-full group">
-                  Enviar Mensagem
-                  <Send className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
 
           {/* Additional Contact Info */}
           <div className="mt-8 text-center">
