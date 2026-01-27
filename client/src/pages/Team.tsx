@@ -25,6 +25,7 @@ const Team = () => {
 
   const teamMembers = [
     {
+      urlphoto:"/35275561.jpeg",
       name: "Arthur Azevedo da Silva",
       role: "Orientador",
       description: "Bacharel em Ciência da Computação e Especialista em Robótica",
@@ -74,8 +75,12 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <Card key={index} className="border-2 hover:border-primary transition-all">
               <CardHeader className="text-center">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto mb-4 flex items-center justify-center text-4xl font-bold text-white">
-                  {member.name.charAt(0)}
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-secondary mx-auto mb-4 flex items-center justify-center text-4xl font-bold text-white overflow-hidden">
+                  {member.urlphoto ? (
+                    <img src={member.urlphoto} alt={member.name} className="w-full h-full object-cover" />
+                  ) : (
+                    <span>{member.name.charAt(0)}</span>
+                  )}
                 </div>
                 <CardTitle className="text-xl">{member.name}</CardTitle>
                 <p className="text-sm text-primary">{member.role}</p>
