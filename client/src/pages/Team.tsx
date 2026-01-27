@@ -35,7 +35,17 @@ const Team = () => {
       }
     },
     {
-      name: "Sofia...",
+      name: "Sofia Emily",
+      role: "Aluna e desenvolvedora",
+      description: "Aluna do Técnico em Desenvolvimento de Sistemas",
+      social: {
+        github: "https://github.com/sosofis0",
+        linkedin: "https://linkedin.com",
+        email: "mailto:sofiaemilly1813@gmail.com"
+      }
+    },
+    {
+      name: "Eduane",
       role: "Aluna e desenvolvedora",
       description: "Aluna do Técnico em Desenvolvimento de Sistemas",
       social: {
