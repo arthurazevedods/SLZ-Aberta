@@ -54,6 +54,16 @@ const Team = () => {
         linkedin: "https://linkedin.com",
         email: "mailto:sofiaemilly1813@gmail.com"
       }
+    },
+    {
+      name: "Aline Mayara",
+      role: "Co-Orientadora",
+      description: "Bacharel em Ciência e Tecnologia e Mestra em Engenharia Elétrica",
+      social: {
+        github: "https://github.com/",
+        linkedin: "https://linkedin.com",
+        email: "mailto:sofiaemilly1813@gmail.com"
+      }
     }
   ];
 
