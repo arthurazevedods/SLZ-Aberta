@@ -35,9 +35,9 @@ const Team = () => {
       }
     },
     {
-      name: "Sofia...",
+      name: "Sofia Emily de Meneses Ferreira",
       role: "Aluna e desenvolvedora",
-      description: "Aluna do Técnico em Desenvolvimento de Sistemas",
+      description: "Aluna do Curso Técnico em Desenvolvimento de Sistemas do Instituto Federal do Maranhão - IFMA",
       social: {
         github: "https://github.com/sosofis0",
         linkedin: "https://linkedin.com",
@@ -55,7 +55,7 @@ const Team = () => {
             Equipe e Contato
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conheça quem está por trás da OpenCity SLZ e entre em contato conosco
+            Conheça quem está por trás da SLZ aberta e entre em contato conosco
           </p>
         </div>
 

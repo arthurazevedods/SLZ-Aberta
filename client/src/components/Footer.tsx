@@ -8,7 +8,7 @@ const Footer = () => {
           {/* About */}
           <div>
             <h3 className="font-bold text-lg mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              OpenCity SLZ
+              SLZ aberta
             </h3>
             <p className="text-sm text-muted-foreground">
               Democratizando o acesso às informações públicas de São Luís através de dados abertos e visualizações interativas.

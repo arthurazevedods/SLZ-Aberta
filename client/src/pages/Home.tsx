@@ -70,7 +70,7 @@ const Home = () => {
             Dados Abertos • Transparência • Cidadania
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent animate-in fade-in slide-in-from-bottom-4 duration-1000">
-            OpenCity SLZ
+            SLZ aberta
           </h1>
           <p className="text-xl md:text-2xl text-foreground/80 mb-4 max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-5 duration-1000 delay-100">
             Dados abertos para uma cidade mais inteligente
