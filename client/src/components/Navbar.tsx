@@ -38,6 +38,9 @@ const Navbar = () => {
                   variant={isActive(item.path) ? "default" : "ghost"}
                   className="transition-all"
                 >
+                  {item.path === "/dados" && (
+                    <Database className="mr-2 h-5 w-5 text-primary-foreground" />
+                  )}
                   {item.name}
                 </Button>
               </Link>
@@ -64,6 +67,9 @@ const Navbar = () => {
                     variant={isActive(item.path) ? "default" : "ghost"}
                     className="w-full justify-start"
                   >
+                    {item.path === "/dados" && (
+                      <Database className="mr-2 h-5 w-5 text-primary-foreground" />
+                    )}
                     {item.name}
                   </Button>
                 </Link>

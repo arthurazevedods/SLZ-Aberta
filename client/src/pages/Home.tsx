@@ -56,7 +56,7 @@ const Home = () => {
 
   const stats = [
     { number: "6", label: "Eixos Temáticos", icon: Database },
-    { number: "50+", label: "Fontes de Dados", icon: BarChart3 },
+    { number: "6", label: "Fontes de Dados", icon: BarChart3 },
     { number: "1M+", label: "Habitantes", icon: Users },
   ];
 
