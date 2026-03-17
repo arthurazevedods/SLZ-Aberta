@@ -40,7 +40,11 @@ All colors MUST be HSL.
     --ring: 214 84% 45%;
 
     --radius: 0.75rem;
-    
+
+    /* Chart colors (comparativos) */
+    --chart-2: 152 69% 42%;
+    --chart-3: 45 93% 58%;
+
     /* Custom civic design tokens */
     --civic-gradient: linear-gradient(135deg, hsl(214 84% 45%), hsl(152 69% 42%));
     --hero-gradient: linear-gradient(135deg, hsl(214 84% 45%) 0%, hsl(214 70% 55%) 50%, hsl(152 69% 42%) 100%);
@@ -93,7 +97,10 @@ All colors MUST be HSL.
     --border: 215 28% 20%;
     --input: 215 28% 20%;
     --ring: 214 84% 55%;
-    
+
+    --chart-2: 152 69% 48%;
+    --chart-3: 45 93% 65%;
+
     --civic-gradient: linear-gradient(135deg, hsl(214 84% 55%), hsl(152 69% 48%));
     --hero-gradient: linear-gradient(135deg, hsl(214 84% 55%) 0%, hsl(214 70% 65%) 50%, hsl(152 69% 48%) 100%);
     --card-shadow: 0 4px 20px -2px hsl(214 84% 55% / 0.15);

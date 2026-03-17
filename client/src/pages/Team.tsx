@@ -25,7 +25,7 @@ const Team = () => {
 
   const teamMembers = [
     {
-      urlphoto:"/35275561.jpeg",
+      
       name: "Arthur Azevedo da Silva",
       role: "Orientador",
       description: "Bacharel em Ciência da Computação e Especialista em Robótica",
@@ -64,7 +64,18 @@ const Team = () => {
         linkedin: "https://linkedin.com",
         email: "mailto:sofiaemilly1813@gmail.com"
       }
+    },
+    {
+      name: "Maria Luísa",
+      role: "Aluna e Desenvolvedora",
+      description: "Aluna do Técnico em Desenvolvimento de Sistemas",
+      social: {
+        github: "https://github.com/",
+        linkedin: "https://linkedin.com",
+        email: "mailto:sofiaemilly1813@gmail.com"
+      }
     }
+
   ];
 
   return (
